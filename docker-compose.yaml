@@ -4,6 +4,8 @@ services:
     build: "."
     container_name: "nginx-google"
     restart: "always"
+    volumes: 
+      - "nginx-google-log:/var/log/nginx/"
     ports: 
       - "80:80"
     

@@ -13,7 +13,8 @@ RUN apt-get update && \
     chown -Rf www:www /usr/local/nginx/ && \
     rm -rf /nginx-1.8.1* && \
     rm -rf ngx_http_google_filter_module && \
-    rm -rf ngx_http_substitutions_filter_module
+    rm -rf ngx_http_substitutions_filter_module && \
+    mkdir /var/log/nginx 
 ADD nginx.conf /usr/local/nginx/conf
 EXPOSE 80
 ENTRYPOINT [ "/usr/local/nginx/sbin/nginx", "-g", "daemon off;" ]
