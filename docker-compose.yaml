@@ -8,4 +8,6 @@ services:
       - "nginx-google-log:/var/log/nginx/"
     ports: 
       - "80:80"
-    
+  
+volumes: 
+  nginx-google-log:
