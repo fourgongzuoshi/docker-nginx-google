@@ -1,7 +1,7 @@
 ![](https://bboysoul-web.oss-cn-hangzhou.aliyuncs.com/20190513-2.gif)
 
 ### 简介
-在原作者代码的基础上加了https
+通过docker安装Google镜像站
 
 ### 准备
 
