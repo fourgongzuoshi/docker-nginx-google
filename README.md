@@ -1,9 +1,7 @@
 ![](https://bboysoul-web.oss-cn-hangzhou.aliyuncs.com/20190513-2.gif)
 
 ### 简介
-
-之前我写过[搭建一个google镜像站]([https://www.bboysoul.com/2017/09/01/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AAgoogle%E9%95%9C%E5%83%8F%E7%AB%99/](https://www.bboysoul.com/2017/09/01/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AAgoogle%E9%95%9C%E5%83%8F%E7%AB%99/)
-)这篇文章，使用的是nginx的一个模块，但是使用比较麻烦，今天就简化了一下
+在原作者代码的基础上加了https
 
 ### 准备
 
@@ -23,11 +21,11 @@
 
 之后clone我这个项目，欢迎fork star follow我
 
-`git clone https://github.com/bboysoulcn/docker-nginx-google.git`
+`git clone https://github.com/fourgongzuoshi/docker-nginx-google.git`
 
 之后直接启动
 
 `cd docker-nginx-google/ && docker-compose up -d`
 
-欢迎关注Bboysoul的博客[www.bboysoul.com](http://www.bboysoul.com/)
+欢迎关注我的镜像站发布页[foursearch.cf](https://foursearch.cf)
 Have Fun
